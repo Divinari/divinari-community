@@ -1,0 +1,29 @@
+name: Language Preservation Request
+description: Propose a new language or regional variety for community curation and future tooling support.
+title: "[Language Request]: "
+labels: ["language-request"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for proposing a language or regional variety! Divinari treats distinct regional languages with full linguistic dignity.
+  - type: input
+    id: language_name
+    attributes:
+      label: Language / Regional Variety Name
+      placeholder: "e.g., Cebuano (Sugbuanon), Ilocano, Kinaray-a, Maranao"
+    validations:
+      required: true
+  - type: input
+    id: iso_code
+    attributes:
+      label: ISO 639-1 / 639-3 / BCP-47 Code
+      placeholder: "e.g., ceb, ilo, krj, mrw"
+    validations:
+      required: true
+  - type: textarea
+    id: community_context
+    attributes:
+      label: Community Context & Available Native Reviewers
+      description: Share known public-domain/CC-BY-4.0 references, orthography notes, or community reviewers interested in leading curation.
+    validations:
+      required: true

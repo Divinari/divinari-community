@@ -1,0 +1,24 @@
+name: Partnership Inquiry
+description: Start a conversation about university, NGO, church, or heritage preservation collaboration.
+title: "[Partnership]: "
+labels: ["partnership-inquiry"]
+body:
+  - type: dropdown
+    id: sector
+    attributes:
+      label: Organization Type
+      options:
+        - University / Academic Research
+        - NGO / Heritage Preservation Organization
+        - Church / Faith Community
+        - Missionary / Cross-Cultural Language Team
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: collaboration_goal
+    attributes:
+      label: Proposed Collaboration Scope
+      description: Describe your language focus, goals, timeline, and open-data or pilot interests (no private personal contact info needed in public issue—use support@divinari.app if confidential).
+    validations:
+      required: true

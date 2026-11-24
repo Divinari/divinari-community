@@ -1,0 +1,19 @@
+name: Volunteer Reviewer / Language Lead Application
+description: Apply to review vocabulary, grammar notes, or cultural context in a community language track.
+title: "[Reviewer Application]: "
+labels: ["volunteer-reviewer"]
+body:
+  - type: input
+    id: languages
+    attributes:
+      label: Languages & Fluency Level
+      placeholder: "e.g., Tagalog (Native), Hiligaynon (Native)"
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Linguistic, Teaching, or Cultural Background
+      description: Tell us about your experience with translation quality, regional orthography, or heritage education.
+    validations:
+      required: true
