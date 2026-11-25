@@ -1,0 +1,31 @@
+title: "[Reviewer Intro]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the Native Reviewer Hub! Introduce yourself and coordinate with Language Leads reviewing entries for [Divinari/divinari-language-resources](https://github.com/Divinari/divinari-language-resources). Please review our [Native Reviewer Handbook](../blob/main/volunteer-guidelines/native-reviewer-handbook.md).
+  - type: input
+    id: languages
+    attributes:
+      label: Languages & Regional Varieties
+      placeholder: "e.g., Tagalog (Manila / Batangas), Cebuano (Cebu / Bohol)"
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Native / Linguistic Background
+      description: Share your native fluency, teaching or translation experience, or regional orthography expertise (no private personal details needed).
+      render: markdown
+    validations:
+      required: true
+  - type: checkboxes
+    id: areas
+    attributes:
+      label: Areas of Interest
+      options:
+        - label: Vocabulary & polysemy review
+        - label: Natural example sentences & register notes
+        - label: Regional variant documentation
+        - label: Writing-system stroke & script guides
+        - label: Cultural & CARE Indigenous Data Ethics review

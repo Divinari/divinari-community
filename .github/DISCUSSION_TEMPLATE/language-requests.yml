@@ -1,0 +1,44 @@
+title: "[Language Request]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose a new language, regional variety, or writing system for Divinari and our open preservation tracks. Divinari respects every regional language as distinct—never as an "inferior dialect."
+  - type: input
+    id: language_name
+    attributes:
+      label: Language or Regional Variety Name
+      placeholder: "e.g., Waray (Waray-Waray), Cherokee, Kapampangan, Aymara"
+    validations:
+      required: true
+  - type: input
+    id: iso_code
+    attributes:
+      label: ISO 639-1 / 639-3 / BCP-47 Code
+      placeholder: "e.g., war, chr, pam, aym"
+    validations:
+      required: true
+  - type: input
+    id: writing_system
+    attributes:
+      label: Script / Writing System
+      description: Standard orthography and any heritage script (e.g., Latin, Baybayin, Cherokee Syllabary, Ge'ez).
+      placeholder: "e.g., Latin + Baybayin"
+    validations:
+      required: false
+  - type: textarea
+    id: regional_context
+    attributes:
+      label: Regional & Community Context
+      description: Share regions where this language is spoken, verified Public Domain / CC BY 4.0 references, and why learners/heritage speakers need this track.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: native_reviewers
+    attributes:
+      label: Native Speaker & Reviewer Availability
+      description: Are you (or a community group) interested in helping review vocabulary, cultural context, or script data?
+      render: markdown
+    validations:
+      required: false

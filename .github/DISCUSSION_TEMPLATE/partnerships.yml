@@ -1,0 +1,40 @@
+title: "[Partnership]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start an open conversation about university, NGO, church, ministry, or cultural-heritage collaboration. For confidential inquiries, email **support@divinari.app**.
+  - type: dropdown
+    id: org_type
+    attributes:
+      label: Organization Type
+      options:
+        - Church / Ministry
+        - University / School
+        - NGO / Nonprofit
+        - Cultural / Heritage Group
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: target_languages
+    attributes:
+      label: Target Languages
+      placeholder: "e.g., Cebuano, Hiligaynon, Cherokee, Ancient Greek"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Collaboration Proposal
+      description: Describe your educational, preservation, or pilot goals and timeline.
+      render: markdown
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent_ack
+    attributes:
+      label: Public Listing Policy
+      options:
+        - label: I understand that organizations are only listed as official Divinari partners after explicit written mutual agreement.
+          required: true

@@ -1,0 +1,27 @@
+title: "[Question]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a question about Divinari's community guidelines, open JSON schemas, contribution workflow, or heritage preservation standards.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Contributing & DCO 1.1
+        - Linguistic Datasets & Reviews
+        - Open JSON Schemas & Validator CLI
+        - Writing Systems & Stroke Specs
+        - Partnerships & Community Governance
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: question_details
+    attributes:
+      label: Question Details
+      description: Share what you are working on, links to relevant files, and what you would like clarified.
+      render: markdown
+    validations:
+      required: true
