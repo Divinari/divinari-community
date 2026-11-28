@@ -13,7 +13,7 @@
 
 ## Our Vision & Inclusivity Commitment
 
-- **Language Accessibility & Linguistic Dignity:** Supporting learners and heritage speakers across Philippine, Indigenous Americas, classical, and global languages while honoring distinct regional languages on their own terms (never reducing distinct languages to "dialects").
+- **Language Accessibility & Linguistic Dignity:** Supporting learners and heritage speakers across Philippine, Asia-Pacific & Austronesian (including Indonesian), Indigenous Americas, classical, and global languages while honoring distinct regional languages on their own terms (never reducing distinct languages to "dialects").
 - **Faith & Cultural Pluralism:** Divinari offers optional public-domain Scripture and faith-integrated learning tracks alongside complete, secular-ready curricula. Contributors and partners from secular universities, NGOs, heritage organizations, churches, and diverse faith or cultural backgrounds are equally welcomed without proselytizing pressure.
 - **Truthful Representation:** External organizations, academic bodies, or faith networks are listed as official partners only after explicit written mutual agreement. Prototype or preview institutional capabilities are labeled honestly.
 
